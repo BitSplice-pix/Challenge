@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Perimeter{
+public class Perimeter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("\nClaculating the Perimeter of rectangle\n");
@@ -9,7 +9,7 @@ public class Perimeter{
         double Firstside = input.nextDouble();
         double Secondside = input.nextDouble();
         double Thirdside = input.nextDouble();
-        double Fouthside = input.nextDouble();
+        double Fourthside = input.nextDouble();
         double perimeter = Firstside + Secondside + Thirdside + Firstside;
         System.out.println("The Perimeter of Rectangle is: " + perimeter + "cms");
     }
