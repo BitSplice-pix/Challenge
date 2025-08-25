@@ -9,7 +9,7 @@ public class Perimeter {
         double Firstside = input.nextDouble();
         double Secondside = input.nextDouble();
         double Thirdside = input.nextDouble();
-        double Fourthside = input.nextDouble();
+        double Forthside = input.nextDouble();
         double perimeter = Firstside + Secondside + Thirdside + Firstside;
         System.out.println("The Perimeter of Rectangle is: " + perimeter + "cms");
     }
