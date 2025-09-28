@@ -4,6 +4,7 @@ import java.util.Scanner;
 class Swap {
 
     public static void main(String[] args) {
+        System.out.println("Ansari Salman");
         System.out.println("Welcome to the Swap Program!\n");
         Scanner input = new Scanner(System.in);
         System.out.print("Please enter the first number (x): ");
@@ -15,6 +16,6 @@ class Swap {
         x=y;
         y=z;
         System.out.print("Swapping Done...\n");
-        System.out.print("Values after swapping x = " + x + " and y = " + y);
+        System.out.print("Values after swapping x = " + x + " \nand y = " + y);
     }
 }
